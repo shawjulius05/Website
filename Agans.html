@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Georgia's Sweetest Bakery since 1961" />
+    <meta
+      name="keywords"
+      content="bakery, Agansbakery, agans bakery, Abby Agan, Cartersville bakery, gingerbread men, Cartersville"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Agan's Bakery</title>
+    <link rel="icon" type="image/x-icon" href="Favicon5.png"/>
+    <script
+      src="https://kit.fontawesome.com/82456c698d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--Navbar-->
+
+    <nav
+      class="navbar fixed-top navbar-expand-md navbar-light bg-light"
+      id="nav1"
+    >
+      <a href="#" class="navbar-logo" id="navbarlogo">
+        <img
+          class="d-inline-block align-top"
+          src="AgansLogonew.png"
+          width="83"
+          height="50"
+        />
+      </a>
+      <button
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        class="navbar-toggler"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        id="navbarIcon"
+      >
+        <i class="fa-solid fa-bars" id="tIcon"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav" id="navbarul">
+          <li class="nav-item active" id="navitem">
+            <a href="#agansjumbo" class="nav-link"> Home </a>
+          </li>
+          <li class="nav-item active" id="navitem">
+            <a href="#About" class="nav-link"> About </a>
+          </li>
+          <li class="nav-item active" id="navitem">
+            <a href="#Menu" class="nav-link"> Menu </a>
+          </li>
+          <li class="nav-item active" id="navitem">
+            <a href="#Location" class="nav-link"> Visit </a>
+          </li>
+          <li class="nav-item active" id="navitem">
+            <a href="#Contact" class="nav-link"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--End of Navabar-->
+
+    <!--Agans Jumbo-->
+    <div id="agansjumbo">
+      <img id="jumbologo" src="AgansLogo_White3.png">
+        <button id="jumbobtn"><a href="/AgansOrder.html">Order Now</a></button>
+    </div>
+    <!--End of Jumbo-->
+
+    <!--About-->
+    <div id="About" class="row no-gutters">
+      <div id="Abpara" class="column">
+        <h1 id="AbHeader">About Us</h1>
+
+        <h2 id="AbDescription">
+          Agan's Bakery is a third-generation old-fashioned bakery. Since we
+          opened our doors in 1961, we’ve dedicated ourselves to being a
+          high-quality local bakery. We only serve the absolute best made from
+          scratch specialty desserts and treats. You’ll taste the attention and
+          care that we put into every one of our cakes and pastries. Celebrating
+          60 years of service in Cartersville, Georgia!
+        </h2>
+      </div>
+
+      <div id="Abimgholder" class="column">
+        <img id="Abimg" src="aganstogether.jpg" />
+      </div>
+    </div>
+    <!--End of About-->
+
+    <!--Menu-->
+    <div id="Menu">
+      <h2 id="MenuHeader">Menu</h2>
+
+      <!-- this needed to have the nav class -->
+      <!-- see this example of the code https://getbootstrap.com/docs/5.2/components/navs-tabs/#fade-effect -->
+
+      <div id="MenuButtons" class="nav nav-pills" role="tablist">
+        <button class="MB active" data-bs-toggle="tab" data-bs-target="#MBPop">
+          Most Popular
+        </button>
+
+        <button class="MB" data-bs-toggle="tab" data-bs-target="#MBCookies">
+          Cookies
+        </button>
+
+        <button class="MB" data-bs-toggle="tab" data-bs-target="#MBCakes">
+          Cakes
+        </button>
+
+        <button class="MB" data-bs-toggle="tab" data-bs-target="#MBPies">
+          Pies
+        </button>
+
+        <button class="MB" data-bs-toggle="tab" data-bs-target="#MBPastries">
+          Pastries
+        </button>
+
+        <button class="MB" data-bs-toggle="tab" data-bs-target="#MBDoughnuts">
+          Doughnuts
+        </button>
+
+        <button class="MB" data-bs-toggle="tab" data-bs-target="#MBCupcakes">
+          Cupcakes
+        </button>
+
+        <button class="MB" data-bs-toggle="tab" data-bs-target="#MBBreads">
+          Breads
+        </button>
+
+        <button class="MB" data-bs-toggle="tab" data-bs-target="#MBDrinks">
+          Drinks
+        </button>
+      </div>
+
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="MBPop">
+          <div class="MenuItems">
+            <span>Gingerbread Cookie<br /></span>
+            <span class="MenuPrice">$2.49 (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Dinner Roll<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Six)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Iced Cookie<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Chocolate Donut<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+          
+          <div class="MenuItems">
+            <span>Cinnamon Roll<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+            
+          <div class="MenuItems">
+            <span>Apple Fritter<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="MBCookies">
+          <div class="MenuItems">
+            <span>Gingerbread Cookie<br /></span>
+            <span class="MenuPrice">$2.49 (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Peanut Butter Cookie<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Iced Cookie<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Chocolate Drop<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Butter Cookie<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Iced Sugar Cookie<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Sugar Cookie w/ Sprinkles<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Pecan Sandie<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+          <div class="MenuItems">
+            <span>Wedding Cookie<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Double Chocolate Chip Cookie <br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Health Cookie<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Lemon Bar<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+        </div>
+
+        <div id="MBCakes" class="tab-pane fade">
+          <div class="MenuItems">
+            <span>Chocolate Iced Cake<br /></span>
+            <span class="MenuPrice">$X.XX (Slice) $XX.XX (Full)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Cream Cheese Iced Cake<br /></span>
+            <span class="MenuPrice">$X.XX (Slice) $XX.XX (Full)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Rainbow Cake<br /></span>
+            <span class="MenuPrice">$X.XX (Slice) $XX.XX (Full)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Bon-bon Cake<br /></span>
+            <span class="MenuPrice">$X.XX (Slice) $XX.XX (Full)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Petit Four<br /></span>
+            <span class="MenuPrice">$X.XX (Slice) $XX.XX (Full)</span>
+          </div>
+        </div>
+
+        <div id="MBPies" class="tab-pane fade">
+          <div class="MenuItems">
+            <span>Georgie Porgie Pie<br /></span>
+            <span class="MenuPrice">$X.XX (Slice) $XX.XX (Full)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Pumpkin Pie<br /></span>
+            <span class="MenuPrice">$X.XX (Slice) $XX.XX (Full)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Pecan Pie<br /></span>
+            <span class="MenuPrice">$X.XX (Slice) $XX.XX (Full)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Key Lime Pie<br /></span>
+            <span class="MenuPrice">$X.XX (Slice) $XX.XX (Full)</span>
+          </div>
+        </div>
+
+        <div id="MBPastries" class="tab-pane fade">
+          <div class="MenuItems">
+            <span>Cinnamon Roll<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Eclair<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Danish<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Apple Fritter<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Winkie Dink<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Brownie<br /></span>
+            <span class="MenuPrice">$X.XX</span>
+          </div>
+            
+          <div class="MenuItems">
+            <span>Rainbow Square<br /></span>
+            <span class="MenuPrice">$X.XX</span>
+          </div>
+        </div>
+
+        <div id="MBDoughnuts" class="tab-pane fade">
+          <div class="MenuItems">
+            <span>Chocolate Doughnut<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Glazed Doughnut<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Filled Doughnut<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Doughnut Hole<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+        </div>
+
+        <div id="MBCupcakes" class="tab-pane fade">
+          <div class="MenuItems">
+            <span>Cupcake (Decorated)<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Cupcake (Plain)<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Cupcake (Specialty)<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Dozen)</span>
+          </div>
+        </div>
+
+        <div id="MBBreads" class="tab-pane fade">
+          <div class="MenuItems">
+            <span>Holiday Bread<br /></span>
+            <span class="MenuPrice">$X.XX (Slice) $XX.XX (Loaf)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Banana Nut Bread<br /></span>
+            <span class="MenuPrice">$X.XX (Slice) $XX.XX (Loaf)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Dinner Roll<br /></span>
+            <span class="MenuPrice">$X.XX (Single) $XX.XX (Six)</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Banana Bread<br /></span>
+            <span class="MenuPrice">$X.XX (Slice) $XX.XX (Loaf)</span>
+          </div>
+        </div>
+
+        <div id="MBDrinks" class="tab-pane fade">
+          <div class="MenuItems">
+            <span>Coffee<br /></span>
+            <span class="MenuPrice">$X.XX</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Milk<br /></span>
+            <span class="MenuPrice">$X.XX</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Soda (Bottle)<br /></span>
+            <span class="MenuPrice">$X.XX</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Soda (Can)<br /></span>
+            <span class="MenuPrice">$X.XX</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Powerade<br /></span>
+            <span class="MenuPrice">$X.XX</span>
+          </div>
+
+          <div class="MenuItems">
+            <span>Hot Chocolate<br /></span>
+            <span class="MenuPrice">$X.XX</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of Menu-->
+
+    <!--Location-->
+        <div id="Location" class="column">
+            <div class="row no-gutters row_reverse">
+                <div id="MapContainer" class="column">
+                    <iframe id="GoogleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.282111382808!2d-84.80045508474608!3d34.16470421924242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f54f1212f8e62b%3A0x49f6e27cf8b07866!2sAgan&#39;s%20Bakery!5e0!3m2!1sen!2sus!4v1655133277111!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+                </div>
+                <div id="TextContainer" class="column">
+                    <h2 id="LocationHeader">Visit Us</h2>
+                    <p class="locationparah">Address<br/></p>
+                    <p class="locationpara">141 W Main St, Cartersville, GA<br/></p>
+                    <p class="locationparah"><i class="fa-regular fa-clock"></i> Hours<br/></p>
+                    <p class="locationpara">Sunday-Monday: Closed<br/>Tuesday-Thursday: 7AM-4PM<br/>
+                    Friday: 7AM-6PM<br/>Saturday: 7AM-2PM</p>
+                </div>
+            </div>
+        </div>
+    <!--End of Location-->
+
+        <div id="Contact" class="column">
+            <div id="#ContactForm">
+                <h2 id="ContactHeader">Contact Us</h2>
+
+                <form action="PCP.php" method="post">
+                    <div class="ContactElement">
+                        <input type="text" id="fullname" name="fullnamejs" placeholder="Your name" maxlength="100";/>
+                    </div>
+
+                    <div class="ContactElement">
+                        <input type="text" id="email" name="emailjs" placeholder="Email address" maxlength="100";/>
+                    </div>
+
+                    <div class="ContectElement">
+                        <input type="text" id="subject" name="subjectjs" placeholder="Subject" maxlength="100";/>
+                    </div>
+
+                    <div class="ContactElement">
+                        <textarea id="message" name="messagejs" placeholder="Message" style="height: 200px" maxlength="500";></textarea>
+                    </div>
+
+                    <button type="submit" id="ContactButton">
+                        <i class="fas fa-paper-plane"></i>Send
+                    </button>
+                </form>
+            </div>
+        </div>
+    <!--End of Contact-->
+
+    <!--Footer-->
+    <div id="footer">
+      <p id="socials">
+        <a
+          href="https://mobile.twitter.com/agansbakery"
+          target="_blank"
+          class="links"
+        >
+          <i id="twitterIcon" class="fa-brands fa-twitter fa-2xl sIcons"></i>
+        </a>
+
+        <a
+          href="https://www.instagram.com/agansbakery/?hl=en"
+          target="_blank"
+          class="links"
+        >
+          <i
+            id="InstagramIcon"
+            class="fa-brands fa-instagram fa-2xl sIcons"
+          ></i>
+        </a>
+
+        <a
+          href="https://www.facebook.com/agansbakery/"
+          target="_blank"
+          class="links"
+        >
+          <i
+            id="facebookIcon"
+            class="fa-brands fa-facebook-f fa-2xl sIcons"
+          ></i>
+        </a>
+      </p>
+
+      <p id="legal">
+        © 2022 Agan's Bakery
+        <br />
+        Cartersville, GA
+        <br />
+        Hours: Tues-Sat: 7:00 AM - 4:00 PM | Sun-Mon: Closed
+        <br />
+        Agan's Bakery LLC. -All Rights Reserved
+      </p>
+    </div>
+    <!--End of Footer-->
+    <script src="Script.js"></script>
+    <script></script>
+
+    <!--Bootstrap Bundle with Popper-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

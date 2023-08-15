@@ -1,0 +1,697 @@
+/*$desktop:1200px, laptop:992px, tablet:768px, phone:400px */
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+@font-face{
+    src: url(BookmanStd-Light.otf);
+    font-family: 'Booklgt';
+}
+
+@font-face{
+    src: url(BookmanStd-Medium.otf);
+    font-family: 'Bookmd';
+}
+
+body {
+  background-color: #f7c4d3;
+}
+
+#nav1 {
+  border-bottom: 2px solid #f7c4d3;
+  box-shadow: 0px 3px rgba(0, 0, 0, 0.1);
+}
+
+#tIcon {
+  color: #f7c4d3;
+}
+#navitem {
+  padding-right: 40px;
+  font-family: Work Sans;
+  font-size: 18px;
+}
+#navbarlogo {
+  margin-left: 30px;
+}
+#navbarIcon {
+  margin-right: 15px;
+  border: 2px solid #f7c4d3;
+  outline: none;
+  box-shadow: none;
+}
+
+#agansjumbo {
+  background-image: url(RainbowSquares.jpg);
+  background-size: cover;
+  background-position: center 0px;
+  height: 640px;
+  width: 100%;
+}
+#jumbologo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45vw;
+  padding-top: 8vw;
+  padding-bottom: 0vw;
+}
+#jumbobtn{
+  font-family: Work Sans;
+  border: 3px solid white;
+  border-radius: 5px;   
+  background: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vw;
+  margin-bottom: 3vw;    
+}
+#jumbobtn:hover{
+    color: white;
+    background-color: #f7c2d0;
+    border: 3px solid #f7c2d0;
+}
+#nav1 a:hover {
+  color: #f7c4d3;
+}
+#About {
+  background: white;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  border: none;
+  display: flex;
+}
+#Abpara {
+  display: inline-block;
+  width: 50%;
+}
+#AbHeader {
+  color: #f7c4d3;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 50px;
+  width: 100%;
+  margin: 0px;
+  display: inline-block;
+  padding-bottom: 1.7vw;
+}
+#AbDescription {
+  color: #f7c2d0;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 24px;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  width: 100%;
+  margin: 0px;
+  display: inline-block;
+  line-height: 1.4;
+}
+#Abimgholder {
+  display: inline-block;
+  width: 50%;
+}
+#Abimg {
+  float: right;
+  border-radius: 5px;
+  margin-right: 5vw;
+  border: 3px solid #f7c4d3;
+  width: 90%;
+}
+#Menu {
+  background: #f7c4d3;
+  border-top: 2px solid #df7c99;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#Menu .nav{
+    flex-wrap: nowrap;
+}
+#Menu .nav-pills>button.active,
+#Menu .nav-pills>button.active:focus,
+#Menu .nav-pills>button.active:hover{
+    color: #f7c4d3;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#MenuHeader {
+  color: white;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 50px;
+  margin-top: 30px;
+}
+.MB {
+  font-family: Work Sans;
+  font-size: 20px;
+  color: White;
+  background: none;
+  border: none;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.MB:hover {
+  text-decoration: underline;
+}
+
+#MenuButtons {
+  text-align: center;
+  margin-left: 15vw;
+  margin-right: 10vw;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.MenuItems {
+  color: white;
+  border: 3px solid white;
+  font-family: Work Sans;
+  margin-bottom: 20px;
+  margin-right: 0vw;
+  width: 44.8vw;
+  font-size: 20px;
+  font-weight: bolder;
+  display: inline-block;
+  margin-left: 3.25vw;
+  padding: 1.4vw;
+  border-radius: 5px;
+}
+
+.MenuPrice {
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+#Location {
+  background-image: url(Cupcake.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: 2px solid #df7c99;
+  border-bottom: 2px solid #df7c99;
+  height: 40vw;
+  width: 100%;
+}
+#MapContainer{
+    width: 50%;
+    padding-top: 9.5vw;
+    padding-left: 12vw;
+}
+#TextContainer{
+    width: 50%;
+}
+#LocationHeader {
+  padding-top: 5.5vw;
+  color: white;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 50px;
+  width: 100%;
+  margin: 0px;
+  display: inline-block;
+  padding-bottom: 1vw;
+}
+.locationpara{
+  color: white;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 25px;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-bottom: 1.5vw;
+  width: 100%;
+  margin: 0px;
+  line-height: 1.5;
+  display: inline-block;
+}
+.locationparah{
+  color: #f7c4d3;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 25px;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-bottom: 1vw;
+  width: 100%;
+  margin: 0px;
+  line-height: 1.4;
+  display: inline-block;
+}
+#GoogleMap {
+    border-radius: 8px;
+    filter: grayscale(100%)invert(100%)
+    
+}
+#Contact {
+  font-family: Work Sans;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding-top: 50px;
+}
+
+#ContactHeader {
+  color: #f7c4d3;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#ContactForm {
+}
+
+#ContactButton {
+  border: 1px solid #f7c4d3;
+  background: none;
+  width: 80vw;
+  margin-bottom: 100px;
+  color: #f7c4d3;
+  border-radius: 5px;
+}
+
+.ContactElement {
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #f7c4d3;
+  margin-bottom: 30px;
+  width: 80vw;
+  border-radius: 5px;
+}
+
+input:focus-visible, textarea:focus-visible{
+    outline: none;
+    border: 2px solid #f7c4d3;
+}
+
+#footer {
+  background: #f7c4d3;
+}
+
+#socials {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.sIcons {
+  margin: 15px;
+  color: white;
+}
+
+.links {
+  text-decoration: none;
+}
+
+#legal {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 15px;
+  color: white;
+  font-family: Work Sans;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+::placeholder {
+  color: #f7c4d3;
+}
+
+@media screen and (max-width: 1350px) {
+  #AbHeader {
+    font-size: 49px;
+  }
+  #AbDescription {
+    font-size: 22px;
+  }
+  #jumbologo{
+    padding-top: 12vw;   
+  }
+  #LocationHeader{
+      padding-top: 5vw;
+      font-size: 48px;
+  }
+  .locationpara{
+    font-size: 23px;
+  }
+  .locationparah{
+    font-size: 23px;     
+  }
+  #MapContainer{
+    padding-top: 9vw;
+    /padding-left: 11vw;
+  }
+  #GoogleMap{
+        
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  #AbHeader {
+    font-size: 47px;
+  }
+  #AbDescription {
+    font-size: 20px;
+  }
+  #jumbologo{
+    width: 50vw;
+  }
+  #MenuButtons {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+  #LocationHeader{
+      padding-top: 5vw;
+      font-size: 46px;
+  }
+  .locationpara{
+    font-size: 21px;
+  }
+  .locationparah{
+    font-size: 21px;     
+  }
+  #MapContainer{
+    padding-top: 8vw;
+    /padding-left: 11vw;
+  }
+  #GoogleMap{
+        
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #AbHeader {
+    font-size: 45px;
+  }
+  #AbDescription {
+    font-size: 18px;
+  }
+  #MapContainer{
+    padding-top: 7vw;
+    padding-left: 10.5vw;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #AbHeader {
+    font-size: 43px;
+  }
+  #AbDescription {
+    font-size: 18px;
+  }
+  #jumbologo{
+    width: 55vw;   
+  }
+  #LocationHeader{
+    padding-top: 5vw;
+    font-size: 46px;
+  }
+  .locationpara{
+    font-size: 21px;
+  }
+  .locationparah{
+    font-size: 21px;     
+  }
+  #MapContainer{
+    padding-top: 6.5vw;
+    padding-left: 10vw;
+  }
+  #GoogleMap{
+        
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  #AbHeader {
+    font-size: 42px;
+  }
+  #AbDescription {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #AbHeader {
+    font-size: 42px;
+  }
+  #AbDescription {
+    font-size: 15.5px;
+    line-height: 1.4;
+  }
+  #jumbologo{
+    padding-top: 14vw;
+    width: 60vw;   
+  }
+  #LocationHeader{
+    padding-top: 5vw;
+    font-size: 44px;
+  }
+  .locationpara{
+    font-size: 19px;
+  }
+  .locationparah{
+    font-size: 19px;     
+  }
+  #MapContainer{
+    padding-top: 7.5vw;
+    padding-left: 11.5vw;
+  }
+  #GoogleMap{
+    width: 30vw;
+    height: 25vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #AbHeader {
+    font-size: 41px;
+  }
+  #AbDescription {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .MenuItems {
+    font-size: 20px;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 2vw;
+  }
+  .MenuPrice {
+    font-size: 18px;
+  }
+  #jumbologo{
+    padding-top: 16vw;
+    width: 65vw;
+  }
+  #LocationHeader{
+    padding-top: 4.5vw;
+    font-size: 41px;
+  }
+  .locationpara{
+    font-size: 16px;
+    padding-bottom: 1.2vw;
+  }
+  .locationparah{
+    font-size: 16px;
+    padding-bottom: 0.8vw;
+  }
+  #MapContainer{
+    padding-top: 7.5vw;
+    padding-left: 11.5vw;
+  }
+  #GoogleMap{
+    width: 30vw;
+    height: 25vw;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  #jumbologo{
+    padding-top: 18vw;
+    width: 70vw;
+  }
+  #AbHeader {
+    font-size: 49px;
+  }
+  #AbDescription {
+    font-size: 23px;
+    line-height: 1.4;
+  }
+  #Abpara {
+    float: right;
+    width: 100%;
+    margin-bottom: 5vw;
+    margin-top: 7vw;
+  }
+  #Abimgholder {
+    float: left;
+    width: 100%;
+    margin-bottom: 7vw;
+    padding: 0;
+  }
+  .row {
+    --bs-gutter-x: 0;
+  }
+  #LocationHeader{
+    padding-top: 4.5vw;
+    font-size: 41px;
+  }
+  .locationpara{
+    font-size: 14px;
+    padding-bottom: 1.2vw;
+  }
+  .locationparah{
+    font-size: 14px;
+    padding-bottom: 0.8vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #AbHeader {
+    font-size: 42px;
+    padding-bottom: 4vw;
+  }
+  #AbDescription {
+    font-size: 23px;
+    line-height: 1.4;
+    padding-bottom: 4vw;
+  }
+  .navbar {
+    padding-bottom: 0px;
+  }
+
+  /* padding on logo in mobile mode */
+  #navbarlogo {
+    padding-bottom: 8px;
+  }
+
+  #navitem {
+    text-align: center;
+    background: #f7c4d3;
+    padding-right: 0;
+    /border-bottom: 2px solid #df7c99;
+    border-top: 2px solid white;
+    /border-left: 2px solid #df7c99;
+    /border-right: 2px solid #df7c99;
+  }
+  #navitem a:hover {
+    color: white;
+   /background: #f1b5bf;
+  }
+  #agansjumbo {
+    height: 125vw;
+      
+  }
+  #jumbologo {
+    width: 90vw;
+    padding-top: 35vw;
+    padding-bottom: 10vw;
+  }
+  #jumbobtn {
+  font-size: 22px;     
+  }
+  #MenuButtons {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .MenuItems {
+    font-size: 18px;
+  }
+  .MenuPrice {
+    font-size: 16px;
+  }
+  #Location{
+    height: 145vw;     
+  }
+  #MapContainer {
+    width: 100%;
+    padding-top: 8vw;
+    padding-left: 26vw;
+  }
+  #TextContainer{
+    width: 100%;     
+  }
+  #GoogleMap{
+    width: 50vw;
+    height: 40vw;
+    filter: grayscale(0%) invert(0%);
+  }
+  .row_reverse{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  #LocationHeader{
+    padding-top: 8vw;
+    font-size: 49px;
+  }
+  .locationpara{
+    font-size: 21px;
+    padding-bottom: 1.2vw;
+  }
+  .locationparah{
+    font-size: 21px;
+    padding-bottom: 0.8vw;
+  }
+  #ContactHeader{
+      font-size: 42px;
+      padding-bottom: 4vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #AbHeader {
+    font-size: 49px;
+  }
+  #AbDescription {
+    font-size: 23px;
+    line-height: 1.4;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #AbHeader {
+    font-size: 49px;
+  }
+  #AbDescription {
+    font-size: 23px;
+    line-height: 1.4;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #agansjumbo {
+    /*background-image: url(BlueCake.png);*/
+    margin-top: 50px;
+  }
+  #jumbologo {
+    padding-top: 30vw;   
+  }
+  #slogan {
+    font-size: 0;
+  }
+  .MenuItems {
+    font-size: 16px;
+  }
+  .MenuPrice {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #AbHeader {
+    font-size: 49px;
+  }
+  #AbDescription {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
